@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mae{
+    background-color: rgb(65, 138, 235);
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo{
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+
+.in{
+    width: ;
+}
+
+.pt1{
+    background-color: white;
+    width: 700px ;
+    height: 100px;
+    display: flex;
+}
+
+.pt2{
+    background-color: white;
+    width: 700px;
+    height: 100px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.not :hover{
+background-color: rgba(0, 162, 255, 0.623);}
+
+.not a{
+background-color: rgba(0, 140, 255, 0.623);
+border-radius: 10px;
+padding: 10px;
+box-shadow: 3px 3px 3px black;
+
+}
+.ace a{
+background-color: rgba(0, 140, 255, 0.623);
+border-radius: 10px;
+padding: 10px;
+box-shadow: 3px 3px 3px black;
+}
+
+.ace :hover{
+background-color: rgba(0, 162, 255, 0.623);
+}
+.conta a{
+background-color: rgba(0, 140, 255, 0.623);
+border-radius: 10px;
+padding: 10px;
+box-shadow: 3px 3px 3px black;
+}
+.conta :hover{
+background-color: rgba(0, 162, 255, 0.623);}
+
+
+.menu{
+    background-color: white;
+    width:200px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.p{
+ 
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.menu a{
+    color: black;
+}
+.p :hover{
+background-color: rgba(0, 162, 255, 0.253);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.meiopai{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.meio {
+    width: 1000px;
+    background-color: red ;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.meiobaixo {
+    width: 1000px;
+    background-color: white ;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quatro{
+    background-color: rgba(0, 162, 255, 0.603);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
