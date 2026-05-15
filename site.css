@@ -27,9 +27,24 @@ header{
 }
 
 .in{
-    width: ;
+    align-items: center;
+    display: flex;
+    width: 50px;
+    height: 50px;
+
 }
+.lupa{
+    width: 30px;
+    height: 30px;
+    margin-top: 56px;
+    margin-left: 20px;
+
+}
+
 .barrapesquisa{
+    margin-top: 45px;
+    width: 500px;
+    height: 20px;
     border-radius: 5px;
 }
 
@@ -38,6 +53,7 @@ header{
     width: 700px ;
     height: 100px;
     display: flex;
+    justify-content: space-around;
 }
 
 .pt2{
@@ -157,7 +173,7 @@ h2{
       clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
       background-color: red;
       width: 225px;
-      height: 300px;
+      height: 300px;}
 .sabido{
     background-color: rgba(0, 219, 0, 0.822);
     border-radius: 5px;
@@ -216,7 +232,7 @@ h2{
 .grande{
  background-color: red;
  width: 1000px;
- height: 3000px;
+ height: 100px;
  margin-left: 50px;
  margin-top: 30px;
  border-radius: 10px;
@@ -224,6 +240,9 @@ h2{
 
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: gray;
     width: 100%;
     height: 70px;
