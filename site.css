@@ -170,12 +170,24 @@ h2{
     position: relative;
     left: 30px;
 }
+
+
 .m3io{
-      /* O polígono define os 4 pontos (x y) do recorte */
-      clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+     /* O polígono define os 4 pontos (x y) do recorte */
+   
+      clip-path: polygon(25% 0, 100% 0, 85% 100%, 0% 100%);
       background-color: rgb(0, 219, 0);
-      width: 225px;
-      height: 300px;}
+      width: 600px;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+    .osp{
+        height: 370px;
+        width: 600px;
+        border-radius: 10px;
+    }
+
 .sabido{
     background-color: rgba(0, 219, 0, 0.822);
     border-radius: 5px;
@@ -239,15 +251,40 @@ h2{
  margin-top: 30px;
  border-radius: 10px;
  display: flex;
+ justify-content: space-between;
 }
+
+.fami{
+    background-color: aqua;
+    width: 225px;
+    height: 100px;
+    margin-left: 10px;    
+}
+
 .la1{
-    background-color: darkblue;
+    background-color: red;
     width: 500px;
-    height: 50px;
-    margin-left: 50px;
-    margin-top: 30px;
+    height: 100px;
+    margin-left: 10px;
+
     border-radius: 10px;
+    display: flex;
 }
+ 
+.esc h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.esc{
+    border-radius: 10px;
+background-color: rgb(153, 4, 4);
+width: 225px;
+height: 100px;
+}
+
+
 .la2{
     display: flex;
     justify-content: space-between;
@@ -303,7 +340,6 @@ h2{
 
 
 
-
 footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -312,5 +348,21 @@ footer{
     align-items: center;
     background-color: rgb(54, 52, 65);
     width: 100%;
-    height: 70px;
+    height: 40px;
+}
+
+.fot{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatoss{
+    gap: 20px;
+position: relative;
+    left: 210px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
 }
