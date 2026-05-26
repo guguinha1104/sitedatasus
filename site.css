@@ -274,10 +274,18 @@ margin-top: -10px;
     left: 25px;
 border-radius: 5px;
 border: solid white 2px;
-    background-color: rgb(92, 255, 71);
+    background-color: rgb(163, 202, 158);
 height: 40px;
 width: 40px;
 margin-top: -10px;
+}
+.katroh2{
+    margin-bottom: 10px;
+    color: black;
+}
+.katrop{
+        font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .qatro{
     background:linear-gradient(to bottom, rgba(243, 34, 243, 0.685), rgba(114, 15, 114, 0.685));
@@ -285,6 +293,19 @@ margin-top: -10px;
     height: 200px;
     border-radius: 10px;
 }
+
+.qatro2{
+     position: relative;
+    top: -10px;
+    left: 25px;
+border-radius: 5px;
+border: solid white 2px;
+    background-color: rgb(135, 92, 163);
+height: 40px;
+width: 40px;
+margin-top: -10px;
+}
+
 .quato{
     background:linear-gradient(to bottom, rgba(255, 188, 18, 0.733),rgba(110, 81, 7, 0.836));
     width: 200px;
