@@ -38,7 +38,8 @@ header{
     height: 30px;
     margin-top: 56px;
     margin-left: 20px;
-
+    border: 2px solid rgb(160, 155, 155);
+    border-radius:4px;
 }
 
 .barrapesquisa{
@@ -288,7 +289,7 @@ margin-top: -10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .qatro{
-    background:linear-gradient(to bottom, rgba(243, 34, 243, 0.685), rgba(114, 15, 114, 0.685));
+    background-color:(to bottom, rgb(255, 254, 255), rgba(114, 15, 114, 0.685));
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -300,10 +301,20 @@ margin-top: -10px;
     left: 25px;
 border-radius: 5px;
 border: solid white 2px;
-    background-color: rgb(135, 92, 163);
+    background-color: rgb(171, 132, 221);
 height: 40px;
 width: 40px;
 margin-top: -10px;
+}
+
+.qatrop{
+        font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qatroh2{
+    margin-bottom: 10px;
+    color: black;
 }
 
 .quato{
@@ -324,6 +335,7 @@ box-shadow: 2px 3px 5px black;
  border-radius: 10px;
  display: flex;
  justify-content: space-between;
+ margin-right: 13em;
 }
 
 .fami{
