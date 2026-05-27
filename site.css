@@ -41,6 +41,7 @@ header{
 }
 
 .barrapesquisa{
+    outline: NONE;
     border-style: none;
     margin-top: 39px;
     width: 500px;
